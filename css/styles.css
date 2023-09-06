@@ -357,6 +357,10 @@ nav {
         display: none !important;
     }
 
+    .my_list img{
+        padding-inline: 1px;
+    }
+
     .location {
         width: 100%;
         display: flex;
@@ -375,7 +379,7 @@ nav {
     }
 
     .my_catagories img {
-        margin-right: 2px;
+        margin-right: 1px;
     }
 
     .mob_fotter{
