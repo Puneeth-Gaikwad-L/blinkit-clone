@@ -60,6 +60,10 @@ nav {
 .my_cart {
     background-color: #0d831e !important;
     font-size: 14px !important;
+    font-weight: 700 !important;
+    width: 105px !important;
+    height: 45px !important;
+
 }
 
 .hero img {
@@ -158,20 +162,6 @@ nav {
     justify-content: center;
 }
 
-.my_fotter {
-    width: 85%;
-    margin: auto;
-    font-size: 15px;
-    padding: 10px;
-}
-
-.row-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
 .add_to_cart_btn {
     cursor: pointer;
     width: 66px;
@@ -213,4 +203,121 @@ nav {
 
 .see_all_btn:hover{
     color: #0c831f;
+}
+
+.my_fotter {
+    width: 85%;
+    margin: auto;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.row-2 p{
+    width: 35%;
+    font-size: 12px;
+    color: #666666;
+    text-align: justify;
+}
+
+.row-1{
+    color: #666666;
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.download_sec{
+    width: 30%;
+}
+
+
+.download_sec p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.social-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 10px;
+}
+
+.app_store{
+    width: fit-content;
+    height: fit-content;
+    width: 92px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background-color: #213b4e;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.app_store{
+    display: flex;
+}
+
+.app_store img{
+    width: 20px;
+    height: 20px;
+}
+
+.app_store p {
+    margin: 0;
+    font-size: 5px;
+    width: 60%;
+    color: #f2f2f2;
+}
+
+.btn_txt{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.playbtn span{
+    font-size: 8px;
+}
+
+.row-3 a{
+    text-decoration: none;
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.row-3 a:hover{
+    color: #6b6b6b;
+}
+
+.row-3{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.useful-links{
+    flex: 2;
+}
+
+.categories-links{
+    flex: 3;
+}
+
+.my_fotter table{
+    width: 100%;
 }
