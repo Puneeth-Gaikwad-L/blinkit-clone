@@ -28,6 +28,10 @@ nav {
     font-weight: 400;
 }
 
+.mob_login {
+    display: none;
+}
+
 .verticle-line {
     height: 55px;
     border-left: 2px solid #f2f2f2;
@@ -63,7 +67,7 @@ nav {
     font-weight: 700 !important;
     width: 105px !important;
     height: 45px !important;
-
+    display: flex !important;
 }
 
 .hero img {
@@ -102,7 +106,7 @@ nav {
 }
 
 
-.section_heading{
+.section_heading {
     width: 85%;
     font-size: 24px;
     font-weight: 600;
@@ -178,30 +182,31 @@ nav {
     align-items: center;
     transition: all 0.2s ease-in;
 }
-.add_to_cart_btn:hover{
+
+.add_to_cart_btn:hover {
     background-color: #0d831e;
     color: #f2f2f2;
 }
 
-.catagory_sec::-webkit-scrollbar{
+.catagory_sec::-webkit-scrollbar {
     display: none;
 }
 
-.strike_price{
+.strike_price {
     color: #9a9a9a;
 }
 
-.card_anchor{
+.card_anchor {
     text-decoration: none;
 }
 
-.see_all_btn{
+.see_all_btn {
     text-decoration: none;
     color: #0c831f;
     font-size: 20px;
 }
 
-.see_all_btn:hover{
+.see_all_btn:hover {
     color: #0c831f;
 }
 
@@ -217,33 +222,33 @@ nav {
     padding: 10px;
 }
 
-.row-2 p{
+.row-2 p {
     width: 35%;
     font-size: 12px;
     color: #666666;
     text-align: justify;
 }
 
-.row-1{
+.row-1 {
     color: #666666;
     font-size: 13px;
     text-align: justify;
     padding: 10px;
 }
 
-.download_sec{
+.download_sec {
     width: 30%;
 }
 
 
-.download_sec p{
+.download_sec p {
     color: #666666;
     font-weight: 600;
     font-size: 14px;
     text-align: justify;
 }
 
-.social-btn{
+.social-btn {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -255,7 +260,7 @@ nav {
     margin-inline: 10px;
 }
 
-.app_store{
+.app_store {
     width: fit-content;
     height: fit-content;
     width: 92px;
@@ -270,11 +275,11 @@ nav {
     margin: 10px;
 }
 
-.app_store{
+.app_store {
     display: flex;
 }
 
-.app_store img{
+.app_store img {
     width: 20px;
     height: 20px;
 }
@@ -286,38 +291,96 @@ nav {
     color: #f2f2f2;
 }
 
-.btn_txt{
+.btn_txt {
     font-size: 10px;
     font-weight: 700;
 }
 
-.playbtn span{
+.playbtn span {
     font-size: 8px;
 }
 
-.row-3 a{
+.row-3 a {
     text-decoration: none;
     color: #6b6b6b;
     font-size: 14px;
 }
 
-.row-3 a:hover{
+.row-3 a:hover {
     color: #6b6b6b;
 }
 
-.row-3{
+.row-3 {
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.useful-links{
+.useful-links {
     flex: 2;
 }
 
-.categories-links{
+.categories-links {
     flex: 3;
 }
 
-.my_fotter table{
+.my_fotter table {
     width: 100%;
+}
+
+.mob_fotter{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100vw;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    nav, .row-2, .row-3 {
+        flex-direction: column;
+        width: 100vw !important;
+    }
+
+    .verticle-line,
+    .nav_logo,.my_fotter {
+        display: none;
+    }
+
+    .search_box {
+        width: 100%;
+    }
+
+    .login, .my_cart, .hero img {
+        display: none !important;
+    }
+
+    .location {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mob_login {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my_catagories img {
+        margin-right: 5px;
+    }
+
+    .mob_fotter{
+        display: flex;
+        width: 100vw;
+        height: 30vh;
+    }
 }
