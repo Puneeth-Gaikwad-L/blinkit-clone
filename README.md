@@ -29,7 +29,3 @@ Blinkit Clone is designed to adapt seamlessly to different screen sizes, providi
 To run this project locally, open the following link in your web browser:
 
 https://puneeth-gaikwad-l.github.io/blinkit-clone/
-
-## Usage
-
-Feel free to explore, modify, or use this project to enhance your HTML and CSS skills. It serves as an excellent learning resource and a starting point for web development projects.
